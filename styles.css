@@ -174,7 +174,15 @@ to {
     }
 }
 .abt {
-    text-align: center; 
+    text-align: center;
     max-width: 800px; 
     margin: 0 auto;
+    color: azure;
+}
+.a{
+    text-align: center;
+    color:blueviolet;
+}
+.b{
+    color:lawngreen;
 }
