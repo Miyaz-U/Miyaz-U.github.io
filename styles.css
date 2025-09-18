@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 
     /* Animated Gradient Background */
-    background: linear-gradient(270deg, #3498db, #8e44ad, #2c3e50);
+    background: linear-gradient(270deg, #e0f7fa, #fce4ec, #e3f2fd, #fffde7);
     background-size: 600% 600%;
     animation: gradientShift 15s ease infinite;
 }
