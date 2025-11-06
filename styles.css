@@ -187,12 +187,13 @@ to {
     color:lawngreen;
 }
 /* --- Fix: Remove white box effect for badge sections --- */
-#certifications, #languages, #achievements {
+#skills, #certifications, #languages, #achievements {
     background: transparent !important;
     box-shadow: none !important;
     padding: 4rem 2rem;
 }
 
+#skills .skills-list,    
 #certifications .skills-list,
 #languages .skills-list,
 #achievements .skills-list {
@@ -202,6 +203,7 @@ to {
 }
 
 /* Optional – make the badges look vibrant and consistent */
+#skills .skill,
 #certifications .skill,
 #languages .skill,
 #achievements .skill {
@@ -214,6 +216,7 @@ to {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+#skills .skill:hover,
 #certifications .skill:hover,
 #languages .skill:hover,
 #achievements .skill:hover {
