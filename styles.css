@@ -187,61 +187,25 @@ to {
     color:lawngreen;
 }
 #certifications, #achievements, #languages {
-    background: #f9f9f9;
-    border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 4rem 2rem;
+  margin-top: 3rem;
 }
-.timeline {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem 0;
+
+#certifications h2,
+#achievements h2,
+#languages h2 {
+  color: #8e44ad;
 }
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 4px;
-  background: #3498db;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.timeline-item {
-  background: white;
-  border-radius: 10px;
-  padding: 1rem;
-  width: 45%;
-  position: relative;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
-}
-.timeline-item:nth-child(odd) {
-  left: 0;
-}
-.timeline-item:nth-child(even) {
-  left: 55%;
-}
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  top: 1rem;
-  width: 20px;
-  height: 20px;
-  background: #3498db;
-  border-radius: 50%;
-  left: -10px;
-  transform: translateX(-50%);
-}
-@media (max-width: 768px) {
-  .timeline::after {
-    left: 8px;
-  }
-  .timeline-item {
-    width: 100%;
-    left: 0 !important;
-    margin-left: 2rem;
-  }
-  .timeline-item::before {
-    left: -25px;
-  }
+
+#certifications .skill,
+#achievements .skill,
+#languages .skill {
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  color: white;
+  border-radius: 25px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
