@@ -186,3 +186,37 @@ to {
 .b{
     color:lawngreen;
 }
+/* --- Fix: Remove white box effect for badge sections --- */
+#certifications, #languages, #achievements {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 4rem 2rem;
+}
+
+#certifications .skills-list,
+#languages .skills-list,
+#achievements .skills-list {
+    background: transparent;
+    box-shadow: none;
+    padding: 1rem 0;
+}
+
+/* Optional – make the badges look vibrant and consistent */
+#certifications .skill,
+#languages .skill,
+#achievements .skill {
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    color: white;
+    border-radius: 25px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#certifications .skill:hover,
+#languages .skill:hover,
+#achievements .skill:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
