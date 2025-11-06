@@ -186,26 +186,3 @@ to {
 .b{
     color:lawngreen;
 }
-#certifications, #achievements, #languages {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  padding: 4rem 2rem;
-  margin-top: 3rem;
-}
-
-#certifications h2,
-#achievements h2,
-#languages h2 {
-  color: #8e44ad;
-}
-
-#certifications .skill,
-#achievements .skill,
-#languages .skill {
-  background: linear-gradient(135deg, #3498db, #8e44ad);
-  color: white;
-  border-radius: 25px;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
-  font-weight: 500;
-}
