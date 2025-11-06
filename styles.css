@@ -186,3 +186,7 @@ to {
 .b{
     color:lawngreen;
 }
+#certifications, #achievements, #languages {
+    background: #f9f9f9;
+    border-radius: 10px;
+}
