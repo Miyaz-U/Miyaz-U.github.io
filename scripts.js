@@ -31,3 +31,16 @@ window.addEventListener('scroll', () => {
         nav.style.backgroundColor = '#2c3e50';
     }
 });
+const menuToggle = document.querySelector(".menu-toggle");
+const navList = document.querySelector("nav ul");
+
+menuToggle.addEventListener("click", () => {
+    navList.classList.toggle("show");
+});
+const navLinks = document.querySelectorAll("nav ul li a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        navList.classList.remove("show");
+    });
+});
