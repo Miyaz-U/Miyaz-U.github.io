@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/29935471/README.1.md)
 # Miyaz U — Portfolio Website
 
 A personal portfolio website showcasing my education, work experience, projects, skills, and certifications. Built with vanilla HTML, CSS, and JavaScript, and deployed via GitHub Pages.
