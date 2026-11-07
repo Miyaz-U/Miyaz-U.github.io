@@ -36,11 +36,15 @@ const navList = document.querySelector("nav ul");
 
 menuToggle.addEventListener("click", () => {
     navList.classList.toggle("show");
+    menuToggle.classList.toggle("active");
+    menuToggle.blur(); // removes leftover focus highlight
 });
+
 const navLinks = document.querySelectorAll("nav ul li a");
 
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         navList.classList.remove("show");
+        menuToggle.classList.remove("active");
     });
 });
