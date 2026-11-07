@@ -2,7 +2,7 @@
 
 A personal portfolio website showcasing my education, work experience, projects, skills, and certifications. Built with vanilla HTML, CSS, and JavaScript, and deployed via GitHub Pages.
 
-🔗 **Live site:** [miyaz-u.github.io](https://miyaz-u.github.io/)
+🔗 **Live site:** [miyaz-u.github.io](https://my-portfolio-d18563.netlify.app/)
 
 ## About
 
